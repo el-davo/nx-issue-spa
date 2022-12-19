@@ -1,7 +1,7 @@
 import { getGreeting } from '../support/app.po';
 
 describe('test-app', () => {
-  beforeEach(() => cy.visit('/home'));
+  beforeEach(() => cy.visit('/bla/abc13?abc=abc').reload().reload());
 
   it('should display welcome message', () => {
     // Custom command example, see `../support/commands.ts` file

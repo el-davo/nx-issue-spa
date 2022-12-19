@@ -70,7 +70,7 @@
       "options": {
         "buildTarget": "test-app:build",
         "port": 4200,
-        "spa": true
+        "proxyUrl": "http://localhost:4200?"
       },
       "configurations": {
         "development": {
